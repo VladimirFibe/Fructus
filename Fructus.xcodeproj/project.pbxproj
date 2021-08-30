@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1801F2EE26DC3EA2003C9ECC /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801F2ED26DC3EA2003C9ECC /* FruitDetailView.swift */; };
+		1835A77E26DD344000CF888E /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835A77D26DD344000CF888E /* FruitHeaderView.swift */; };
+		1835A78026DD377800CF888E /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835A77F26DD377800CF888E /* SourceLinkView.swift */; };
+		1835A78226DD3CA900CF888E /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835A78126DD3CA900CF888E /* FruitNutrientsView.swift */; };
 		188C2A6B26DBA2D0001948C2 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C2A6A26DBA2D0001948C2 /* StartButtonView.swift */; };
 		18950FFE26DBF005000D5C4D /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18950FFD26DBF005000D5C4D /* FruitRowView.swift */; };
 		18E423C026DBB81700C8D071 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E423BF26DBB81700C8D071 /* OnboardingView.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1801F2ED26DC3EA2003C9ECC /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		1835A77D26DD344000CF888E /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		1835A77F26DD377800CF888E /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		1835A78126DD3CA900CF888E /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		188C2A6A26DBA2D0001948C2 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		18950FFD26DBF005000D5C4D /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		18E423BF26DBB81700C8D071 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -102,6 +110,7 @@
 			children = (
 				18F5FA6C26DB87F8007EFE56 /* FructusApp.swift */,
 				18F5FA6E26DB87F8007EFE56 /* ContentView.swift */,
+				1801F2ED26DC3EA2003C9ECC /* FruitDetailView.swift */,
 				18E423BF26DBB81700C8D071 /* OnboardingView.swift */,
 			);
 			path = App;
@@ -111,8 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				18F5FA7C26DB9457007EFE56 /* FruitCardView.swift */,
+				1835A77D26DD344000CF888E /* FruitHeaderView.swift */,
 				188C2A6A26DBA2D0001948C2 /* StartButtonView.swift */,
 				18950FFD26DBF005000D5C4D /* FruitRowView.swift */,
+				1835A77F26DD377800CF888E /* SourceLinkView.swift */,
+				1835A78126DD3CA900CF888E /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E423C626DBBF3A00C8D071 /* FruitData.swift in Sources */,
+				1835A78026DD377800CF888E /* SourceLinkView.swift in Sources */,
 				18F5FA6F26DB87F8007EFE56 /* ContentView.swift in Sources */,
 				18950FFE26DBF005000D5C4D /* FruitRowView.swift in Sources */,
+				1835A78226DD3CA900CF888E /* FruitNutrientsView.swift in Sources */,
 				188C2A6B26DBA2D0001948C2 /* StartButtonView.swift in Sources */,
+				1801F2EE26DC3EA2003C9ECC /* FruitDetailView.swift in Sources */,
 				18F5FA7D26DB9457007EFE56 /* FruitCardView.swift in Sources */,
+				1835A77E26DD344000CF888E /* FruitHeaderView.swift in Sources */,
 				18E423C026DBB81700C8D071 /* OnboardingView.swift in Sources */,
 				18E423C326DBBD7800C8D071 /* FruitModel.swift in Sources */,
 				18F5FA6D26DB87F8007EFE56 /* FructusApp.swift in Sources */,

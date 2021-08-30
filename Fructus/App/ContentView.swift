@@ -15,9 +15,12 @@ struct ContentView: View {
     NavigationView {
       List {
         ForEach(fruits) { fruit in
-          FruitRowView(fruit: fruit)
+          NavigationLink(destination: FruitDetailView(fruit: fruit)) {
+            FruitRowView(fruit: fruit)
+          }
         } // ForEach
       } // List
+      .listStyle(.plain)
       .navigationTitle("Fruits")
     } // Navigation
   }
@@ -27,5 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
+      .preferredColorScheme(.dark)
   }
 }
