@@ -35,6 +35,7 @@ struct FruitCardView: View {
           .frame(maxWidth: 480)
         // Button: Start
         StartButtonView()
+          .padding(.bottom, 50)
       } // VStack
     } // ZStack
     .onAppear(perform: {
